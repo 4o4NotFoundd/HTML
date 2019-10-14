@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>图片image</title>
+</head>
+<body>
+<a href="04初步.html" target="_blank">
+<img src="404.png" width="256px" height="128px" alt="找不到"><br>
+<!--当图片不存在时展示alt的内容-->
+</a>
+
+<form>
+<!--    <input type="image" src="10img.png">-->
+</form>
+<img src="10img.png" usemap="#map1"><br>
+<a>这是圆，请点击圆的部分：</a><br>
+<img src="circle.png" usemap="#map2" width="128px">
+<map name="map1">
+    <area href="Rili.html" shape="rect" coords="6,11,103,108" target="_blank">
+<!--    图片中的位置，矩形（左x，上y，右x，下y）,位置坐标从form中获取-->
+    <area href="email.html" shape="rect" coords="107,15,313,108" target="_blank">
+</map>
+<map name="map2">
+    <area href="circle.html" shape="circle" coords="64px,64px,64px">
+<!--    距离圆心的左，右距离，半径，其余蓝色部分点击无效果-->
+</map>
+</body>
+</html>
