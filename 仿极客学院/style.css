@@ -1,0 +1,117 @@
+.learn-title-nav{
+    line-height: 64px;
+}
+.learn-title-nav a{
+    color: antiquewhite;
+}
+.learn-coures-banner-ios{
+    height:100px;
+    background: url("./images/top.png");
+}
+.learn-title-des .learn-title{
+    font-size: 24px;
+    color: #fff;
+    padding: 13px 0 0 26px;
+}
+.learn-title-des .learn-des{
+    font-size: 14px;
+    color: #929292;
+    padding: 13px 26px 0 26px;
+}
+.learn-video{
+    width: 1000px;
+    height: 700px;
+}
+.learn-video-info{
+    width: 1000px;
+    height: 84px;
+    border: 2px solid #009983;
+    background: red;
+    line-height: 84px;
+
+}
+.learn-video-info .left{
+    width:50%;
+    float: left;
+}
+.learn-video-info .left p{
+    float: left;
+    padding-left: 38px;
+    font-size: 14px;
+}
+.learn-video-info .left p a{
+    color: #1abc9c;
+}
+.learn-video-info .right{
+    width: 50%;
+    /*height: 84px;*/
+    float: right;
+    /*position: relative;*/
+    /*margin-right: 40px;*/
+}
+.learn-video-info .right .rightnum{
+    /*width: 260px;*/
+    /*height: 40px;*/
+    /*margin: 0 auto;*/
+    /*margin-top:60px;*/
+    /*position: relative;*/
+    /*overflow: hidden;*/
+    float: right;
+    padding-right: 38px;
+    font-size: 14px;
+}
+.learn-video-info .right .rightnum a{
+    display: block;
+    float: left;
+    width:40px;
+    height: 40px;
+    background: #111110;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    /*margin: 0 6px;*/
+    position: relative;
+    line-height: 40px;
+}
+.learn-video-info .right .rightnum a:hover{
+    width: 36px;
+    height: 36px;
+    border: 2px solid red;
+    font-size: 14px;
+    line-height: 36px;
+}
+/*----------------------------right课程列表等下半部分---------------*/
+.right{
+    width: 700px;
+    float: right;
+    background: #fff;
+    padding:0 30px;
+}
+.right .list-question{
+    width: 600px;
+    margin: 10px auto;
+}
+.right .list-question span{
+    display: block;
+    width: 200px;
+    cursor: pointer;
+    /*cursor属性在鼠标放到该位置呈现手状*/
+    padding-bottom:20px ;
+    text-align: center;
+    margin-right: 100px;
+    float: left;
+    font-weight: bold;
+    font-size: 24px;
+    color: #727272;
+}
+.right .list-question span.bottomline{
+    border-bottom: 2px solid #23BA88;
+    color: black;
+}
+.right .cf{
+    width: 600px;
+    margin: 10px auto;
+}
+.right .cf .list-content{
+
+}
