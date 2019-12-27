@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS样式表</title>
+    <link rel="stylesheet" type="text/css" href="color.css">
+<!--    link链接到外部样式表，采用color.css,对应word3-->
+    <style type="text/css">
+        word2:hover{
+            font-size:30px;color: #ff2539;
+            /*设置文档内嵌样式表，所有word标签都将这个格式50，红色*/
+        }
+    </style>
+</head>
+<body>
+<word1 style="font-size: 20px;color: #2066ff">元素内嵌样式表</word1><br>
+<word2>文档内嵌样式表</word2><br>
+<word3>外部CSS样式表</word3><br>
+<!--若都设为word，则出现层叠效果，优先级：元素>文档>外部-->
+<!--动作选择器hover：鼠标移到此处字体变大显色-->
+</body>
+</html>
