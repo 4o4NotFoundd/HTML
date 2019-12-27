@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>table</title>
+</head>
+<body>
+<table border="5px" align="center">
+<!-- 边框，表格居中-->
+    <!-- thead，tbody，tfoot，表头，表内容，表脚-->
+    <thead>
+    <tr>
+        <th>姓名</th>
+        <th>性别</th>
+        <th>年龄</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td rowspan="2">Bob</td>
+        <td>man</td>
+        <td>23</td>
+    </tr>
+    <tr>
+<!--        <td>Jerry</td>-->
+        <td colspan="2">未知</td>
+    </tr>
+    </tbody>
+    <tfoot>
+    <tr>
+        <th>总计</th>
+        <th colspan="2">2</th>
+<!--        <th>43</th>-->
+    </tr>
+    </tfoot>
+
+</table>
+</body>
+</html>
